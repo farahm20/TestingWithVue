@@ -1,15 +1,26 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <main>
+    <p> The Toggle Button</p>
+    <OnOff></OnOff>
+    <Counter></Counter>
+    <Options></Options>
+    <ShowHide></ShowHide>
+  </main>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import OnOff from './components/OnOff/OnOff.vue'
+import Counter from './components/counter/Counter.vue'
+import Options from './components/Options/Options.vue'
+import ShowHide from './components/ShowHide/showHide.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    OnOff,
+    Counter, 
+    Options,
+    ShowHide
   }
 }
 </script>
