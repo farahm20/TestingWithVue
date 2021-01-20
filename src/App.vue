@@ -5,6 +5,7 @@
     <Counter></Counter>
     <Options></Options>
     <ShowHide></ShowHide>
+     <Hello></Hello>
   </main>
 </template>
 
@@ -13,6 +14,8 @@ import OnOff from './components/OnOff/OnOff.vue'
 import Counter from './components/counter/Counter.vue'
 import Options from './components/Options/Options.vue'
 import ShowHide from './components/ShowHide/showHide.vue'
+import Hello from './components/Hello/hello.vue'
+
 
 export default {
   name: 'App',
@@ -20,7 +23,8 @@ export default {
     OnOff,
     Counter, 
     Options,
-    ShowHide
+    ShowHide,
+    Hello
   }
 }
 </script>
