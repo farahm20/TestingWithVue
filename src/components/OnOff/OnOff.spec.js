@@ -2,6 +2,7 @@ import { shallowMount } from '@vue/test-utils'
 import OnOff from './OnOff.vue'
 
 describe('OnOff.vue', () => {
+
     it('should display "on" when the component is mounted', () => {
         const expected = 'On'
 
